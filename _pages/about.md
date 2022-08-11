@@ -20,7 +20,7 @@ Welcome to my personal website! This site is still under construction.
 
 **Research Interest**: I am interested in computational materials science and science visualization.
 
-**Previously**: I was advised by Professor [James Rondinelli](https://mtd.mccormick.northwestern.edu/) at Northwestern Univeristy during my undergrad. During my gap year, I was a visiting student in Professor [Wenhao Sun](https://whsunresearch.group/)'s group at University of Michigan.
+**Previously**: I was advised by Professor [James Rondinelli](https://mtd.mccormick.northwestern.edu/) at Northwestern Univerisity during my undergrad. During my gap year, I was a visiting student in Professor [Wenhao Sun](https://whsunresearch.group/)'s group at University of Michigan.
 
 <!-- Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 
