@@ -34,6 +34,17 @@ This animation uses [Pymunk](http://www.pymunk.org/en/latest/) for the MD simula
 <script src="https://player.vimeo.com/api/player.js"></script>
 
 <p>&nbsp;</p>
+
+### Gibbs free energy equation
+
+The following animation shows a step-by-step breakdown of the Gibbs free energy equation in a binary system, 
+as well as how each variable affects the final shape of the Gibbs curve.
+
+<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/739055634?h=f3169f450c&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="BinarySolution"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+
+
+<p>&nbsp;</p>
+
 ### Cu-Ag Phase diagram construction from common tangents
 This shows the construction of a real Cu-Ag binary phase diagram from the common tangents of gibbs curves. 
 The Gibbs free energy curves are extracted from [Thermo-Calc](https://thermocalc.com/).
@@ -46,11 +57,11 @@ The Gibbs free energy curves are extracted from [Thermo-Calc](https://thermocalc
 <p>&nbsp;</p>
 
 ## **Kinetics**
-### TTT Diagram
-To model phase transformation kinetics, we can write the phase fraction by volume that has been transformed ( $$f_\text{transformed}$$ )
+### TTT diagram
+To model phase transformation kinetics, we can write the phase fraction by volume that has been transformed ( $$f_\mathrm{transformed}$$ )
 as a function of the steady-state nucleation rate ( $$J$$ ), the growth rate ( $$\dot{R}$$ ), and time ( $$t$$ ):
 
-$$f_\text{transformed}=1-\exp\left(-\frac{\pi}{3}J{\dot{R}}^3t^4\right)$$
+$$f_\mathrm{transformed}=1-\exp\left(-\frac{\pi}{3}J{\dot{R}}^3t^4\right)$$
 
 When the temperature ( $$T$$ ) is below the phase transformation point, the nucleation rate should decrease with increasing temperature (i.e., decreasing undercooling), 
 and the growth rate should increase with increasing temperature. As the temperature increases, we can trace the time durations it takes to reach 10%, 50%, and 99% transformed to obtain a Time-Temperature-Transformation (TTT) diagram.
@@ -60,9 +71,30 @@ and the growth rate should increase with increasing temperature. As the temperat
 <p>&nbsp;</p>
 
 ### Voronoi crystall growth
-Isometric crystall growth.
+When the crystal growth is isometric, and all nuclei have the same growth rate, the final cell boundary is equivalent to a [Voronoi diagram](https://en.wikipedia.org/wiki/Voronoi_diagram).
 
 <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/738878038?h=676bd5917d&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="VoronoiCrystalGrowth"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+
+<p>&nbsp;</p>
+
+### Fourier series as solutions to partial differential equation
+When students are first taught the solution to Fick's Second Law of diffusion, they are often presented with the following formula:
+
+$$c(x,t)=\frac{4c_0}{\pi}\sum_{j=0}^\infty\left(\frac{1}{2j+1}\right)\sin\left[\frac{\left(2j+1\right)\pi x}{L}\right]\exp\left[-\left(\frac{\left(2j+1\right)\pi}{L}\right)^2Dt\right]$$
+
+where $$c(x,t)$$ is the concentration profile as a function of position ($$x$$) and time ($$t$$); $$L$$ is the diffusion length; $$c_0$$ is the initial impurity concentration; $$D$$ is the diffusion coefficient. If the students have no prior exposure to Fourier series, they may be puzzled by this formula and wonder why we are summing over sine functions. To reduce confusion, we can visualize the summation of an infinite sine series giving rise to a square wave, which satisfies the initial boundary conditions:
+
+$$c(x,t=0)=\frac{4c_0}{\pi}\sum_{j=0}^\infty\left(\frac{1}{2j+1}\right)\sin\left[\frac{\left(2j+1\right)\pi x}{L}\right]$$
+
+<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/739070037?h=2fd31994f0&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="FourierSeries.mp4"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+
+<p>&nbsp;</p>
+
+## **Crystallography**
+### Cubic 3-fold rotational symmetry
+The 3-fold rotational symmetry for a cube.
+
+<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/739072172?h=a0fd666dcc&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="CubicSymmetry"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
 
 <p>&nbsp;</p>
 
