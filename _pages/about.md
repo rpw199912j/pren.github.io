@@ -2,14 +2,14 @@
 layout: about
 title: about
 permalink: /
-subtitle: Incoming graduate student @ Stanford&#127794. Previously @ Northwestern University.
+subtitle: Incoming graduate student @ Stanford <img src="../assets/img/evergreen_tree.png" height="20px"/>. Previously @ Northwestern University <img src="../assets/img/wildcat.png" height="20px"/>.
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: Peiwen_Ren_Headshot.jpg
   image_cicular: false # crops the image to make it circular
-  address: >
-    <p>Obviously, I am no Albert Einstein</p>
+  # address: >
+  #   <p>Obviously, I am no Albert Einstein</p>
   
 news: true  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
