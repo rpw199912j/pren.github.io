@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Incoming graduate student @ Stanford <img src="../assets/img/evergreen_tree.png" height="20px"/>. Previously @ Northwestern University <img src="../assets/img/wildcat.png" height="20px"/>.
+subtitle: Graduate student @ Stanford <img src="../assets/img/evergreen_tree.png" height="20px"/>. Previously @ Northwestern University <img src="../assets/img/wildcat.png" height="20px"/>.
 
 profile:
   align: right
