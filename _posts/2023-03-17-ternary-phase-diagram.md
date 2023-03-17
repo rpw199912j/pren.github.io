@@ -1,7 +1,7 @@
 ---
 layout: distill
-title: Convex hull construction of phase diagrams
-description: an visual introduction
+title: Convex Hull Construction of Phase Diagrams
+description: An visual introduction
 date: 2023-03-17
 tags: code
 
@@ -46,7 +46,7 @@ _styles: >
 
 ## Ternary Phase Diagram
 
-<iframe width="1000" height="750" frameborder="0" scrolling="yes" src="/assets/html/ternary_isothermal_slice_v3.html"></iframe>
+<iframe width="1000" height="580" frameborder="0" scrolling="yes" src="/assets/html/ternary_isothermal_slice_v3.html"></iframe>
 
 
 ***
