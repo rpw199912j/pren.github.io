@@ -56,8 +56,41 @@ The Gibbs free energy curves are extracted from [Thermo-Calc](https://thermocalc
 
 <p>&nbsp;</p>
 
+### Legendre Transformations
+Legendre transformation allows one to swap the independently controlled variables while retaining all the information in the original thermodynamic potential. The following animation shows the transformation between $$ U(S,V) $$ and $$ F(T,V) $$, where $$ F $$ is the tangent line intercept with the $$ U $$ axis. 
+
+<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/815746822?h=5adc2842d3&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Legendre2D"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+
+<p>&nbsp;</p>
+
+One can clearly see the change in concavity when we go from an extensive variable $$ S $$ to an intensive variable $$ T $$. We can also go one step further, showing the Legendre transformation from $$ U(S,V) $$ to $$ G(T,P) $$, where $$ G $$ is the tangent plane intercept with the $$ U $$ axis.
+
+<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/804055211?h=125fe612d8&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Legendre3D"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+
+<p>&nbsp;</p>
+
 ## **Kinetics**
-### TTT diagram
+### Diffusion with Cahn-Hilliard Equation
+The Cahn-Hilliard equation is often used to model phase separation as a result of spinodal decomposition. The following animations are created with a hand-written finite-difference partial differential equation solver in Numpy. The numerical calculations are optimized with the [Numba](https://numba.pydata.org/) package. Here, we explore the effect of the average starting composition and noise distribution on the final microstructure.
+
+With the average start composition as 0.5, and random noises $$ \pm 0.05 $$:
+<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/820788402?h=6fa7c37ac5&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="CahnHilliard2D-Random-Noise-0.5+-0.05"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+<p>&nbsp;</p>
+
+With the average start composition as 0.3, and random noises $$ \pm 0.05 $$:
+<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/820788389?h=9e491f1dc9&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="CahnHilliard2D-Random-Noise-0.3+-0.05.mp4"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+<p>&nbsp;</p>
+
+With the average start composition as 0.5, and square noises $$ \pm 0.1 $$:
+<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/820788413?h=d4e825a4e7&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="CahnHilliard2D-Square-Noise-0.5+-0.1"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+<p>&nbsp;</p>
+
+With the average start composition as 0.5, and wave noises $$ \pm 0.1 $$:
+<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/820788436?h=6986fc1340&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="CahnHilliard2D-Wave-Noise-0.5+-0.1"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+<p>&nbsp;</p>
+
+
+### TTT Diagram
 To model phase transformation kinetics, we can write the phase fraction by volume that has been transformed ( $$f_\mathrm{transformed}$$ )
 as a function of the steady-state nucleation rate ( $$J$$ ), the growth rate ( $$\dot{R}$$ ), and time ( $$t$$ ):
 
