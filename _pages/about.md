@@ -18,7 +18,7 @@ social: true  # includes social icons at the bottom of the page
 
 Welcome to my personal website! This site is still under construction.
 
-**Research Interest**: I am interested in computational materials science and science visualization.
+**Research Interest**: I am interested in computational materials science and science visualization. I am currently advised by Professor [Felipe Jornada](https://jornada.stanford.edu/) at Stanford University.
 
 **Previously**: I was advised by Professor [James Rondinelli](https://mtd.mccormick.northwestern.edu/) at Northwestern Univerisity during my undergrad. During my gap year, I was a visiting student in Professor [Wenhao Sun](https://whsunresearch.group/)'s group at University of Michigan. I have also interned at [QuesTek](https://www.questek.com/) and [Thermo-Calc](https://thermocalc.com/).
 
